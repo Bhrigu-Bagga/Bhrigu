@@ -1520,7 +1520,7 @@ hr.fancy::before {
 .attention-getter {
 	font-family: var(--font-1);
 	font-size  : var(--text-md);
-	line-height: var(--vspace-1_25);
+	line-height: 36px;
 }
 
 @media screen and (max-width: 800px) {
@@ -2931,7 +2931,7 @@ td:last-child {
 }
 
 .testimonials {
-	margin-top: var(--vspace-3);
+	/* margin-top: var(--vspace-3); */
 	position  : relative;
 }
 
@@ -2982,6 +2982,13 @@ td:last-child {
 	color      : var(--color-text-light);
 }
 
+.testimonials__slide p{
+	line-height: 31px;
+	font-size: 21px;
+	font-weight: 500;
+	font-family: "Roboto Flex", sans-serif;
+	color: rgb(36, 37, 37);
+}
 /* ------------------------------------------------------------------- 
  * ## swiper overrides
  * ------------------------------------------------------------------- */
@@ -3242,12 +3249,20 @@ td:last-child {
 /* --------------------------------------------------------------------
  * ## main navigation
  * -------------------------------------------------------------------- */
+ p.logo {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Roboto Flex", sans-serif;
+    letter-spacing: 0.3px;
+	color: #ffffff;
+	margin: 0px;
+}
 .s-header__nav {
 	margin-left    : var(--vspace-1);
 	display        : flex;
 	flex           : 1 1 0%;
 	align-items    : center;
-	justify-content: space-between;
+	justify-content: right;
 }
 
 .s-header__menu-links {
@@ -3261,16 +3276,22 @@ td:last-child {
 .s-header__menu-links li {
 	padding-left: 0;
 }
+.s-header__menu-links li:hover {
+	opacity: 0.8;
+}
 
 .s-header__menu-links a {
 	display            : block;
 	font-family        : var(--font-1);
 	font-weight        : 400;
-	font-size          : 1.6rem;
+	font-size          : 18px;
 	line-height        : var(--vspace-1);
-	color              : var(--color-2-lightest);
+	color              : #ffffff;
 	padding            : 0 1.2rem;
 	transition-property: color, background-color;
+	letter-spacing: 1.5px;
+	font-weight: 500;
+	border-bottom: none;
 }
 
 .s-header__menu-links a:focus,
@@ -3758,6 +3779,7 @@ td:last-child {
 
 .ss-home .s-header__inner {
 	transition-duration: 0.6s;
+	align-items: center;
 }
 
 .ss-home .s-header__inner,
@@ -4042,13 +4064,13 @@ td:last-child {
  *
  * ------------------------------------------------------------------- */
 .s-clients {
-	padding-top     : var(--vspace-6);
+	padding-top     : var(--vspace-4);
 	padding-bottom  : var(--vspace-4);
 	background-color: var(--color-3);
 }
 
 .s-clients__content-block:first-child {
-	margin-bottom: var(--vspace-1_75);
+	/* margin-bottom: var(--vspace-1_75); */
 }
 
 .s-clients__content-block:first-child .grid-block {
