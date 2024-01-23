@@ -3092,7 +3092,27 @@ td:last-child {
 .grid-section-split__header>* {
 	width: min(55rem, 95%);
 }
+#pdfContainer {
+	height: 900px;
+  }
 
+.grid-section-split__header .bb-img-split{
+    max-width: 320px;
+    margin-top: 15px;
+    border: 3px solid #d1cdc1;
+    border-radius: 8px;
+}
+h2.bb-about-label {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    font-family: 'Roboto Flex';
+    max-width: 315px;
+    text-align: center;
+    margin-top: 0px;
+}
 .grid-section-split__primary {
 	grid-column: 9/span 8;
 	grid-row   : 1/3;
