@@ -3095,6 +3095,20 @@ td:last-child {
 #pdfContainer {
 	height: 900px;
   }
+  .bb-img-brand * {
+    aspect-ratio: 4/ 2;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    object-fit: contain;
+    margin: 0px;
+}
+.bb-img-brand {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+	margin-top: 30px;
+}
 
 .grid-section-split__header .bb-img-split{
     max-width: 320px;
@@ -3192,6 +3206,12 @@ h2.bb-about-label {
 }
 
 
+@media (max-width: 525px){
+	.bb-img-brand {
+		grid-template-columns: 1fr 1fr;
+		margin-bottom: 20px;
+	}
+}
 
 /* ===================================================================
  * # PAGE WRAP
@@ -3482,6 +3502,7 @@ h2.bb-about-label {
 
 	.s-header__menu-toggle {
 		display: block;
+		border: none;
 	}
 
 	.menu-is-open .s-header {
@@ -4293,7 +4314,7 @@ h2.bb-about-label {
 	color           : rgba(255, 255, 255, 0.6);
 	background-color: #181818;
 	padding-top     : var(--vspace-3);
-	padding-bottom  : var(--vspace-3);
+	padding-bottom  : 30px;
 }
 
 .s-footer a {
