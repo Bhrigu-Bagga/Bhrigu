@@ -1342,7 +1342,6 @@ i {
 strong,
 b {
 	font-weight: 600;
-	color      : var(--color-text-dark);
 }
 
 small {
@@ -2959,6 +2958,9 @@ td:last-child {
 
 .testimonials__cite {
 	display: block;
+	color: #000;
+	font-family: 'Roboto Flex';
+	
 }
 
 .testimonials__cite strong,
@@ -4853,4 +4855,25 @@ h2.bb-about-label {
 }
 .bb-photshoot-grid img{
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.shadow{
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.exp-letters {
+    display: grid;
+	margin-top: 40px;
+    max-width: 760px;
+	padding-bottom: 60px;
+}
+.list-view {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    align-items: center;
+    gap: 30px;
+}
+p.exp-title {
+    font-size: 18px;
+    color: #000;
+    font-family: 'Roboto Flex';
+	margin: 0px;
 }
