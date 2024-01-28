@@ -4804,7 +4804,6 @@ h2.bb-about-label {
 	padding-left: 0;
 }
 
-/* Work page */
 .bb-school-sample-data {
     display: flex;
 	flex-wrap: wrap;
@@ -4833,7 +4832,7 @@ h2.bb-about-label {
 }
 .work-title {
     margin-bottom: 40px;
-    max-width: 730px;
+    max-width: 770px;
     line-height: normal;
 }
 .work-desc{
