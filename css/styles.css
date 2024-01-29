@@ -3028,10 +3028,6 @@ td:last-child {
 	.testimonials__slide {
 		text-align: center;
 	}
-
-	.testimonials__cite {
-		text-align: left;
-	}
 }
 
 @media screen and (max-width: 500px) {
@@ -4888,4 +4884,14 @@ p.exp-title {
 .bb-article-shot-list img {
     border-radius: 8px;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+@media (max-width:1024px){
+	.bb-photshoot-grid{
+		grid-template-columns: 1fr;
+	}
+}
+@media (max-width:600px){
+	.list-view{
+		grid-template-columns: 1fr;
+	}
 }
