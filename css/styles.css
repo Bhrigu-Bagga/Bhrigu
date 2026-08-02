@@ -4901,3 +4901,69 @@ p.exp-title {
 		grid-template-columns: 1fr !important;
 	}
 }
+
+/* --------------------------------------------------------------------
+ * ## Awards Pages drill down feature Style code start
+ * -------------------------------------------------------------------- */
+	.gallery-section{
+                max-width:900px;
+                margin:auto;
+            }
+            
+            details{
+                border:1px solid #ddd;
+                border-radius:10px;
+                margin:20px 0;
+                background:#fff;
+            }
+            
+            summary{
+                padding:15px 20px;
+                cursor:pointer;
+                font-size:18px;
+                font-weight:600;
+                list-style:none;
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                color: black;
+            }
+            
+            summary::-webkit-details-marker{
+                display:none;
+            }
+            
+            summary::after{
+                content:"+";
+                font-size:28px;
+                font-weight:bold;
+                transition:.3s;
+            }
+            
+            details[open] summary::after{
+                content:"−";
+            }
+            
+            .gallery{
+                display:flex;
+                flex-wrap:wrap;
+                gap:15px;
+                padding:20px;
+            }
+            
+            .gallery img{
+                width:250px;
+                height:190px;
+                object-fit:cover;
+                border-radius:10px;
+                transition:.3s;
+                cursor:pointer;
+            }
+            
+            .gallery img:hover{
+                transform:scale(1.05);
+            }
+	
+/* --------------------------------------------------------------------
+ * ## Awards Pages drill down feature Style code end
+ * -------------------------------------------------------------------- */
