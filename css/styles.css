@@ -4935,7 +4935,7 @@ summary{
     font-size:20px;
     font-weight:700;
     color:#333;
-    background:linear-gradient(90deg,#FCF9F0,#FEF6E6);
+    background:linear-gradient(90deg,white);
     transition:.3s ease;
 }
 
