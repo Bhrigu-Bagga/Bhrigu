@@ -4905,17 +4905,18 @@ p.exp-title {
 /* --------------------------------------------------------------------
  * ## Awards Pages drill down feature Style code start
  * -------------------------------------------------------------------- */
-	.gallery-section{
+.gallery-section{
     max-width:1000px;
     margin:30px auto;
 }
 
+/* Accordion Card */
 details{
-    background:#fef6e6;
+    background:#FEF6E6;
     border-radius:16px;
     overflow:hidden;
     border:1px solid #e8e8e8;
-    box-shadow:0 8px 25px rgba(0,0,0,0.08);
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
     transition:all .35s ease;
 }
 
@@ -4923,6 +4924,7 @@ details:hover{
     box-shadow:0 12px 35px rgba(0,0,0,.15);
 }
 
+/* Heading */
 summary{
     padding:18px 24px;
     cursor:pointer;
@@ -4933,47 +4935,46 @@ summary{
     font-size:20px;
     font-weight:700;
     color:#333;
-    background:linear-gradient(90deg,#FCF9F0);
-    transition:.3s;
+    background:linear-gradient(90deg,#FCF9F0,#FEF6E6);
+    transition:.3s ease;
 }
 
 summary:hover{
-    background: linear-gradient(90deg, #FEF6E6, #FEF6E6);
+    background:linear-gradient(90deg,#FFFDF8,#FCF9F0);
 }
 
+/* Remove default arrow */
 summary::-webkit-details-marker{
     display:none;
 }
 
+/* Custom + Sign */
 summary::after{
     content:"+";
-    width:38px;
-    height:38px;
-    border-radius:50%;
-    background:#ff4d6d;
-    color:#fff;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size:26px;
-    font-weight:400;
-    transition:.35s ease;
+    color:#333;
+    font-size:36px;
+    font-weight:900;
+    line-height:1;
+    transition:transform .3s ease;
 }
 
+/* Change to − when open */
 details[open] summary::after{
     content:"−";
     transform:rotate(180deg);
-    background:#2d6cdf;
 }
 
+/* Gallery */
 .gallery{
     display:flex;
     flex-wrap:wrap;
+    justify-content:center;
     gap:20px;
     padding:25px;
     background:#fff;
 }
 
+/* Images */
 .gallery img{
     width:250px;
     height:190px;
@@ -4985,26 +4986,34 @@ details[open] summary::after{
     transition:all .35s ease;
 }
 
+/* Hover Effect */
 .gallery img:hover{
     transform:translateY(-8px) scale(1.05);
     box-shadow:0 15px 35px rgba(0,0,0,.22);
 }
 
-@media(max-width:768px)
-{
+/* Responsive */
+@media (max-width:768px){
 
-	.gallery{
-	    justify-content:center;
-	}
-	
-	.gallery img{
-	    width:100%;
-	    max-width:300px;
-	    height:auto;
-	}
+    .gallery{
+        justify-content:center;
+    }
 
+    .gallery img{
+        width:100%;
+        max-width:300px;
+        height:auto;
+    }
+
+    summary{
+        font-size:18px;
+        padding:16px 20px;
+    }
+
+    summary::after{
+        font-size:32px;
+    }
 }
-	
 /* --------------------------------------------------------------------
  * ## Awards Pages drill down feature Style code end
  * -------------------------------------------------------------------- */
