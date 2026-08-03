@@ -4915,7 +4915,7 @@ details{
     background:#FEF6E6;
     border-radius:16px;
     overflow:hidden;
-    border:1px solid #e8e8e8;
+    border:1px solid grey;
     box-shadow:0 8px 25px rgba(0,0,0,.08);
     transition:all .35s ease;
 }
