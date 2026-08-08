@@ -86,15 +86,24 @@
  * ## fonts 
  * ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600&display=swap");
+/* New Font updates on 8 aug-26*/
+:root {
+    --font-1: "Montserrat";
+    --font-2: "Montserrat";
 
+    /* Monospace */
+    --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+}
+
+/* old fonts 
 :root {
 	--font-1: "Roboto Flex", sans-serif;
 	--font-2: "DM Serif Display", Serif;
 
   /* monospace
-   */
+   
 	--font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
-}
+} */
 
 /* ------------------------------------------------------------------- 
  * ## colors
@@ -3120,7 +3129,7 @@ h2.bb-about-label {
     color: #fff;
     letter-spacing: 1.2px;
     font-weight: 500;
-    font-family: 'Roboto Flex';
+    font-family: 'Montserrat;
     max-width: 325px;
     text-align: center;
     margin-top: 0px;
@@ -4008,7 +4017,7 @@ h2.bb-about-label {
  * ------------------------------------------------------------------- */
 .s-about {
 	padding-top     : var(--vspace-6);
-	padding-bottom  : var(--vspace-6);
+	padding-bottom  : var(--vspace-1_25);
 	background-color: var(--color-2-dark);
 	color           : var(--color-3);
 }
