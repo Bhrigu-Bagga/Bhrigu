@@ -4946,6 +4946,7 @@ summary{
     color:#333;
     background:linear-gradient(90deg,white);
     transition:.3s ease;
+	font-family: montserrat;
 }
 
 summary:hover{
