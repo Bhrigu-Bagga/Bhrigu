@@ -1441,7 +1441,7 @@ kbd,
 samp,
 code,
 pre {
-	font-family: var(--font-mono);
+	font-family: var(--font-1);
 }
 
 pre {
@@ -2968,7 +2968,7 @@ td:last-child {
 .testimonials__cite {
 	display: block;
 	color: #000;
-	font-family: 'Roboto Flex';
+	font-family: 'Montserrat';
 	
 }
 
@@ -2997,7 +2997,7 @@ td:last-child {
 	line-height: 31px;
 	font-size: 21px;
 	font-weight: 500;
-	font-family: "Roboto Flex", sans-serif;
+	font-family: "Montserrat";
 	color: rgb(36, 37, 37);
 }
 /* ------------------------------------------------------------------- 
@@ -3129,7 +3129,7 @@ h2.bb-about-label {
     color: #fff;
     letter-spacing: 1.2px;
     font-weight: 500;
-    font-family: 'Montserrat;
+    font-family: 'Montserrat';
     max-width: 325px;
     text-align: center;
     margin-top: 0px;
@@ -3299,7 +3299,7 @@ h2.bb-about-label {
  p.logo {
     font-size: 36px;
     font-weight: 600;
-    font-family: "Roboto Flex", sans-serif;
+    font-family: "Montserrat", Aptos;
     letter-spacing: 0.3px;
 	color: #ffffff;
 	margin: 0px;
@@ -4816,7 +4816,7 @@ h2.bb-about-label {
 	flex-wrap: wrap;
     color: #000;
     line-height: 23px;
-    font-family: 'Roboto Flex';
+    font-family: 'Montserrat';
 	gap: 24px;
 }
 .bb-single-card {
@@ -4845,7 +4845,7 @@ h2.bb-about-label {
 }
 .work-desc{
 	color: #1e1d11;
-	font-family: 'Roboto Flex';
+	font-family: 'Montserrat';
 	line-height: normal;
 	font-size: 20px;
 }
@@ -4880,7 +4880,7 @@ h2.bb-about-label {
 p.exp-title {
     font-size: 18px;
     color: #000;
-    font-family: 'Roboto Flex';
+    font-family: 'Montserrat';
 	margin: 0px;
 }
 .bb-article-shot-list {
