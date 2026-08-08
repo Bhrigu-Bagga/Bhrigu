@@ -5024,6 +5024,22 @@ details[open] summary::after{
         font-size:32px;
     }
 }
+
+/* Footer Image anchor css*/
+.image-link {
+    display: inline-block;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+.image-link img {
+    display: block;
+    max-width: 100%;
+    height: auto;	
+
+	
 /* --------------------------------------------------------------------
  * ## Awards Pages drill down feature Style code end
  * -------------------------------------------------------------------- */
