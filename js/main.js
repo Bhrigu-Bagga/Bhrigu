@@ -384,3 +384,21 @@
     })();
 
 })(document.documentElement);
+
+  /* Awards page images script
+    * ------------------------------------------------------ */
+
+function openAwardImage(image){
+
+    document.getElementById("awardImagePopup").style.display = "flex";
+
+    document.getElementById("awardFullImage").src = image.src;
+
+}
+
+
+function closeAwardImage(){
+
+    document.getElementById("awardImagePopup").style.display = "none";
+
+}
