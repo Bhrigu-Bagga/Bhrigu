@@ -151,6 +151,131 @@
                                 </div> 
                         </details>
                     </div>
+
+                    <div class="gallery-section">
+    <details>
+        <summary>CPRS – Hamilton Mark Gregory Memorial Award - Emerging Professional of the Year</summary>
+
+        <div class="gallery">
+            <div class="bb-photshoot-grid bb-top-grid" style="grid-template-columns:1fr 1fr 1fr;">
+
+                <img src="./images/MGM_ Award.jpg"
+                     class="bb-img-split"
+                     title="Dean's Award Recognition"
+                     width="400"
+                     height="300"
+                     onclick="openAwardImage(this)">
+
+            </div>
+        </div>
+    </details>
+</div>
+
+
+<!-- Image Popup -->
+<div id="awardImagePopup" class="award-image-popup" onclick="closeAwardImage()">
+
+    <span class="award-close">&times;</span>
+
+    <img id="awardFullImage" src="" alt="Award Image">
+
+</div>
+
+
+<style>
+
+/* Clickable Image */
+.bb-img-split{
+    cursor:pointer;
+}
+
+
+/* Popup Background */
+.award-image-popup{
+    display:none;
+    position:fixed;
+    z-index:99999;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,0.85);
+
+    align-items:center;
+    justify-content:center;
+
+    padding:30px;
+    box-sizing:border-box;
+}
+
+
+/* Full Image */
+.award-image-popup img{
+    max-width:90%;
+    max-height:90%;
+
+    width:auto;
+    height:auto;
+
+    object-fit:contain;
+
+    border-radius:10px;
+}
+
+
+/* Close Button */
+.award-close{
+    position:absolute;
+    top:20px;
+    right:35px;
+
+    color:#fff;
+    font-size:45px;
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+
+/* Mobile */
+@media(max-width:768px){
+
+    .award-image-popup img{
+        max-width:95%;
+        max-height:85%;
+    }
+
+    .award-close{
+        top:10px;
+        right:20px;
+        font-size:38px;
+    }
+
+}
+
+</style>
+
+
+<script>
+
+function openAwardImage(image){
+
+    document.getElementById("awardImagePopup").style.display = "flex";
+
+    document.getElementById("awardFullImage").src = image.src;
+
+}
+
+
+function closeAwardImage(){
+
+    document.getElementById("awardImagePopup").style.display = "none";
+
+}
+
+</script>
                 </div>
             </section> <!-- s-content-->
         </div>
