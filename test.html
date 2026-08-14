@@ -383,6 +383,27 @@ function closeAwardImage(){
             "image": "https://bhrigu-bagga.github.io/Bhrigu/images/bagga-pic.jpg"
         }
     </script>
+<script>
 
+function checkPassword() {
+
+    const password = document.getElementById("website-password").value;
+
+    const correctPassword = "12345";
+
+    if (password === correctPassword) {
+
+        document.getElementById("password-screen").style.display = "none";
+
+    } else {
+
+        document.getElementById("password-error").textContent =
+            "Incorrect password. Please try again.";
+
+    }
+
+}
+
+</script>
 </body>
 </html>
