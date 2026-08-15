@@ -1058,122 +1058,71 @@ input, select, textarea {
     width: 100%;
     height: 100vh;
 
-    background: #f1f1f1;
-
-    z-index: 999999;
+    background: #fef6e6;
 
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+
+    z-index: 999999;
 }
 
-.portfolio-cover {
+.password-box {
     width: 90%;
-    max-width: 900px;
-    height: 90vh;
+    max-width: 400px;
+
+    padding: 40px;
+
+    background: #ffffff;
+
+    border-radius: 16px;
 
     text-align: center;
 
-    position: relative;
-
-    padding-top: 40px;
-    box-sizing: border-box;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
-.year {
-    font-family: Georgia, serif;
-    font-size: 16px;
-
-    margin-bottom: 8px;
-}
-
-.portfolio-cover h1 {
-    font-family: Impact, "Arial Black", sans-serif;
-
-    font-size: clamp(55px, 9vw, 110px);
-
-    letter-spacing: 8px;
-
-    margin: 0;
-
-    line-height: 1;
-}
-
-.subtitle {
-    font-family: Georgia, serif;
-
-    font-size: 16px;
-
-    margin-top: 8px;
-}
-
-.password-area {
-    position: absolute;
-
-    left: 50%;
-    top: 52%;
-
-    transform: translate(-50%, -50%);
-
-    width: 280px;
-}
-
-.password-area input {
-    width: 100%;
-
-    padding: 12px 15px;
-
-    box-sizing: border-box;
-
-    border: 1px solid #333;
-
-    background: transparent;
-
-    font-size: 15px;
-
-    outline: none;
-
+.password-box h2 {
     margin-bottom: 10px;
 }
 
-.password-area button {
-    padding: 10px 25px;
-
-    border: 1px solid #000;
-
-    background: #000;
-
-    color: #fff;
-
-    cursor: pointer;
-
-    font-size: 14px;
+.password-box p {
+    margin-bottom: 20px;
 }
 
-.password-area button:hover {
-    background: #333;
-}
+.password-box input {
+    width: 100%;
+    padding: 12px 15px;
 
-#password-error {
-    color: #c00;
-
-    font-size: 13px;
-
-    margin-top: 8px;
-}
-
-.name {
-    position: absolute;
-
-    bottom: 15px;
-
-    left: 50%;
-
-    transform: translateX(-50%);
-
-    font-family: Georgia, serif;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 
     font-size: 16px;
 
-    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.password-box button {
+    margin-top: 15px;
+
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #333;
+    color: #fff;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.password-box button:hover {
+    opacity: 0.85;
+}
+
+#password-error {
+    color: #d33;
+    margin-top: 15px;
 }
