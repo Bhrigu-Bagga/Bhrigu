@@ -1130,4 +1130,8 @@ input, select, textarea {
 .subtitle{
 	font-family: montserrat;
 	color: black;
+	margin-bottom: 10px;
+}
+.portfolio{
+	margin: 10px;
 }
