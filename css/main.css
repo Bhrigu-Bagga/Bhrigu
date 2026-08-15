@@ -1127,6 +1127,14 @@ input, select, textarea {
 	color: black;
 }
 
+.year::before,
+.year::after {
+    content: "";
+    height: 0.1px;
+    background: #000;
+    flex: 1;
+}
+
 .subtitle{
 	font-family: montserrat;
 	color: black;
