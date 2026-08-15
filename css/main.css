@@ -1088,6 +1088,8 @@ input, select, textarea {
 
 .password-box p {
     margin-bottom: 20px;
+	color: black;
+	font-family:montserrat;
 }
 
 .password-box input {
