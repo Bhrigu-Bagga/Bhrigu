@@ -1125,6 +1125,10 @@ input, select, textarea {
 .year{
 	font-family: montserrat;
 	color: black;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
 
 .year::before,
@@ -1139,7 +1143,20 @@ input, select, textarea {
 	font-family: montserrat;
 	color: black;
 	margin-bottom: 10px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
 }
+
+.subtitle::before,
+.subtitle::after {
+    content: "";
+    height: 0.1px;
+    background: #000;
+    flex: 1;
+}
+
 .portfolio{
 	margin: 10px;
 }
