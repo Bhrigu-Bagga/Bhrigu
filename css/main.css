@@ -1140,7 +1140,7 @@ input, select, textarea {
 }
 
 .subtitle{
-	font-family: montserrat;
+	font-family: montserrat; 
 	color: black;
 	margin-bottom: 10px;
 	display: flex;
