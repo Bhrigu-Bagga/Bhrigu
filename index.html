@@ -29,6 +29,22 @@
 
 
 <body id="top">
+<!-- Password Screen Code --> 
+<div id="password-screen">
+    <div class="password-box">
+        <div class="year">
+            Bhrigu Bagga
+        </div>
+        <h4 class="portfolio">PORTFOLIO</h4>
+        <div class="subtitle">
+            PR and Communications Professional 
+        </div>
+        <input type="password" id="website-password" placeholder="Enter password">
+        <button onclick="checkPassword()">Enter</button>
+        <p id="password-error"></p>
+    </div>
+</div>
+<!-- Password screen code end -->
 
     <div id="wrapper">
          <!-- # site header 
@@ -410,5 +426,20 @@
         "image": "https://bhrigu-bagga.github.io/Bhrigu/images/bagga-pic.jpg"
     }
     </script>
+    <!-- Password JavaScript Starts -->
+<script>
+function checkPassword() {
+    const password = document.getElementById("website-password").value;
+    const correctPassword = "@2026";
+    if (password === correctPassword) {
+        document.getElementById("password-screen").style.display = "none";
+    } else {
+        document.getElementById("password-error").textContent =
+            "Incorrect password. Please try again.";
+    }
+}
+</script>
+    <!-- Password JavaScript ends -->
+
 </body>
 </html>
