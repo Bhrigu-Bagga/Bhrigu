@@ -5118,3 +5118,44 @@ details[open] summary::after{
 /* --------------------------------------------------------------------
  * ## Awards Pages drill down feature Style code end
  * -------------------------------------------------------------------- */
+
+/* --------------------------------------------------------------------
+ * ## My work page FB Reels css starts
+ * -------------------------------------------------------------------- */
+	.facebook-reel-container {
+                            width: 100%;
+                            max-width: 857px;
+                            margin: 0 auto;
+                        }
+                        
+                        .facebook-reel-container iframe {
+                            display: block;
+                            width: 100%;
+                            height: 250px;
+                            border: 0;
+                            border-radius: 8px;
+                        }
+                        
+                        
+                        /* Tablet */
+                        @media (max-width: 768px) {
+                        
+                            .facebook-reel-container iframe {
+                                height: 420px;
+                            }
+                        
+                        }
+                        
+                        
+                        /* Mobile */
+                        @media (max-width: 480px) {
+                        
+                            .facebook-reel-container iframe {
+                                height: 200px;
+                            }
+                        
+                        }
+
+	/* --------------------------------------------------------------------
+ * ## My work page FB Reels css Ends
+ * -------------------------------------------------------------------- */
