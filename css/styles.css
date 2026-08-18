@@ -4851,7 +4851,7 @@ h2.bb-about-label {
 }
 .bb-photshoot-grid{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	/* grid-template-columns: 1fr 1fr; */
 	gap: 20px;
 	align-items: center;
 	padding-bottom: 60px;
