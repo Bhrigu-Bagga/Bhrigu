@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Awards: Bhrigu</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css?1.0.5">
+    <link rel="stylesheet" href="css/main.css" />
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+
+</head>
+
+
+<body id="top">
+        <!-- Password Screen Code --> 
+        <div id="password-screen">
+            <div class="password-box">
+                <div class="year">
+                    Bhrigu Bagga
+                </div>
+                <h4 class="portfolio">PORTFOLIO</h4>
+                <div class="subtitle">
+                    PR and Communications Professional 
+                </div>
+                <input type="password" id="website-password" placeholder="Enter password">
+                <button onclick="checkPassword()">Enter</button>
+                <p id="password-error"></p>
+            </div>
+        </div>
+        <!-- Password screen code end -->
+
+    <div id="wrapper">
+        <!-- # site header 
+       ================================================== -->
+       <header class="s-header">
+
+           <div class="row s-header__inner width-sixteen-col">
+
+               <div class="s-header__block">
+                   <div class="s-header__logo">
+                       <a class="logo" href="index.html">
+                           <p class="logo">Bhrigu</p>
+                       </a>
+                   </div>
+
+                   <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+               </div> <!-- end s-header__block -->
+
+               <nav class="s-header__nav">
+   
+                   <ul class="s-header__menu-links">
+                       <li><a href="my-work.html">My Work</a></li>
+                      <!--<li><a href="resume.html">Letters</a></li>-->
+                        <li><a href="Awards.html">Awards</a></li>
+                       <!--> <li><a href="mailto:baggabhrigu@gmail.com">Say Hi!</a></li>
+                   </ul> <!-- s-header__menu-links -->
+
+   
+               </nav> <!-- end s-header__nav -->
+
+           </div> <!-- end s-header__inner -->
+
+       </header> <!-- end s-header -->
+
+       <div id="bg"></div>
+       <div id="overlay"></div>
+       <div id="main">
+           <!-- Header -->
+           <header id="header">    
+               <h1>Awards</h1>
+           </header>
+       </div>
+   </div>
+   <script>
+       window.onload = function() { document.body.classList.remove('is-preload'); }
+       window.ontouchmove = function() { return false; }
+       window.onorientationchange = function() { document.body.scrollTop = 0; }
+   </script>
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap" style="background-color:#fff;">
+        <!-- # site main content
+        ================================================== -->
+      <div style="background-color: #fef6e6;">
+    <section id="content" class="s-content row">
+        <div class="bb-written-sample">
+            <h2 class="work-title">My Awards</h2> 
+<!-- Award 5 -->
+            <div class="gallery-section">
+                <details>
+                    <summary>Recognition at Brant Community Healthcare System</summary>
+                    <div class="gallery">
+                        <div class="bb-photshoot-grid bb-top-grid" style="grid-template-columns:1fr 1fr 1fr;">
+                            <img src="./images/BCHS Recognition.jpg" class="bb-img-split" title="Dean's Award Recognition" width="400" height="300" onclick="openAwardImage(this)"> 
+                        </div>
+                    </div>
+
+                </details>
+            </div>
+            <!-- Award 4 -->
+            <div class="gallery-section">
+                <details>
+                    <summary>CPRS – Hamilton Mark Gregory Memorial Award - Emerging Professional of the Year</summary>
+                    <div class="gallery">
+                        <div class="bb-photshoot-grid bb-top-grid" style="grid-template-columns:1fr 1fr 1fr;">
+                            <img src="./images/MGM_ Award.jpg" class="bb-img-split" title="Dean's Award Recognition" width="400" height="300" onclick="openAwardImage(this)">
+                        </div>
+                    </div>
+                </details>
+            </div>
+<!-- Award 3 -->
+            <div class="gallery-section">
+                <details>
+                    <summary>CPRS – Hamilton Pinnacle Award of Excellence - Silver, Employee Engagement Category</summary>
+                    <div class="gallery">
+                        <div class="bb-photshoot-grid bb-top-grid" style="grid-template-columns:1fr 1fr 1fr;">
+                            <img src="./images/CPRS.jpg" class="bb-img-split" title="Dean's Award Certificate"width="400" height="300" onclick="openAwardImage(this)">
+                        </div>
+                    </div>
+                </details>
+            </div>
+        <!-- Award 2 -->
+            <div class="gallery-section">
+                <details>
+                    <summary>Niagara College Student Administrative Council's Director's Award for School of Media - for academic excellence, leadership, and volunteering in the college community</summary>
+
+                    <div class="gallery">
+                        <div class="bb-photshoot-grid bb-top-grid" style="grid-template-columns:1fr 1fr 1fr;">
+                            <img src="./images/Counci dir award.jpg" class="bb-img-split" title="Council Director Award" width="400" height="300" onclick="openAwardImage(this)">
+                        </div>
+                    </div>
+
+                </details>
+            </div>
+            <!-- Award 1 -->
+            <div class="gallery-section">
+                <details>
+                    <summary>Associate Dean's Award of Excellence - Niagara College Public Relations Program</summary>
+                    <div class="gallery">
+                        <div class="bb-photshoot-grid bb-top-grid" style="grid-template-columns:1fr 1fr 1fr;">
+                            <img src="./images/Dean Awards certificate.jpg" class="bb-img-split" title="Council Director Award" width="400" height="300" onclick="openAwardImage(this)">
+                            <img src="./images/Dean' Awards.JPG" class="bb-img-split" title="Council Director Award" width="400" height="300" onclick="openAwardImage(this)">
+                            <img src="./images/Dean' Award Cert.jpg" class="bb-img-split" title="Council Director Award" width="400" height="300" onclick="openAwardImage(this)">
+                        </div>
+                    </div>
+                </details>
+            </div> 
+            
+<!-- Image Popup -->
+<div id="awardImagePopup" class="award-image-popup" onclick="closeAwardImage()">
+
+    <span class="award-close">&times;</span>
+
+    <img id="awardFullImage" src="" alt="Award Image">
+
+</div>
+
+<style>
+
+/* Clickable Image */
+.bb-img-split{
+    cursor:pointer;
+}
+
+
+/* Popup Background */
+.award-image-popup{
+    display:none;
+    position:fixed;
+    z-index:99999;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    background:rgba(0,0,0,0.85);
+
+    align-items:center;
+    justify-content:center;
+
+    padding:30px;
+    box-sizing:border-box;
+}
+
+
+/* Full Image */
+.award-image-popup img{
+    max-width:90%;
+    max-height:90%;
+
+    width:auto;
+    height:auto;
+
+    object-fit:contain;
+
+    border-radius:10px;
+}
+
+
+/* Close Button */
+.award-close{
+    position:absolute;
+    top:20px;
+    right:35px;
+
+    color:#fff;
+    font-size:45px;
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+
+/* Mobile */
+@media(max-width:768px){
+
+    .award-image-popup img{
+        max-width:95%;
+        max-height:85%;
+    }
+
+    .award-close{
+        top:10px;
+        right:20px;
+        font-size:38px;
+    }
+
+}
+
+</style>
+
+
+<script>
+
+function openAwardImage(image){
+
+    document.getElementById("awardImagePopup").style.display = "flex";
+
+    document.getElementById("awardFullImage").src = image.src;
+
+}
+
+
+function closeAwardImage(){
+
+    document.getElementById("awardImagePopup").style.display = "none";
+
+}
+
+</script>
+    
+        </div>
+    </section>
+</div>
+<!-- old code >
+        <h3>1. Associate Dean's Award of Excellence - Niagara College Public Relations Program</h3>
+                    <div class="bb-photshoot-grid bb-top-grid" style="grid-template-columns: 1fr 1fr 1fr;">
+                        <img src="./images/Dean Awards certificate.jpg" class="bb-img-split" title="Dean Award" width="400" height="300"> 
+                        <img src="./images/Dean' Awards.JPG" class="bb-img-split" title="Dean Award" width="350" height="250"> 
+                        <img src="./images/Dean' Award Cert.jpg" class="bb-img-split" title="Dean Award" width="400" height="300">
+                    </div>
+                    <p style="color: black;">*In photo: Niagara College Dean, Media, Trades and Technology,  Leo Tiberi, felicitating the award. </p>
+
+                    
+                    <h3>2. Niagara College Student Administrative Council's Director's Award for School of Media - for academic excellence, leadership, and volunteering in the college community</h3>
+                    <div class="bb-photshoot-grid bb-top-grid" style="grid-template-columns: 1fr 1fr 1fr;">
+                        <img src="./images/Counci dir award.jpg" class="bb-img-split" title="Council Director Award" width="400" height="300"> 
+                    </div>
+                    <p style="color: black;">*In photo: Niagara College President Sean Kennedy, felicitating the award.</p>
+
+                    <h3>3. CPRS – Hamilton Pinnacle Award of Excellence - Silver, Employee Engagement Category</h3>
+                    <div class="bb-photshoot-grid bb-top-grid" style="grid-template-columns: 1fr 1fr 1fr;">
+                        <img src="./images/CPRS.jpg" class="bb-img-split" title="Council Director Award" width="400" height="300"> 
+                    </div>
+                  <!--  <p style="color: black;">*In photo: Niagara College President Sean Kennedy, felicitating the award.</p> 
+                    <h3>4. CPRS – Hamilton Mark Gregory Memorial Award - Emerging Professional of the Year</h3>
+                    <div class="bb-photshoot-grid bb-top-grid" style="grid-template-columns: 1fr 1fr 1fr;">
+                        <img src="./images/MGM_ Award.jpg" class="bb-img-split" title="Council Director Award" width="400" height="300"> 
+                    </div>
+                  <!--  <p style="color: black;">*In photo: Niagara College President Sean Kennedy, felicitating the award.</p> 
+                    <h3>5. Recognition at Brant Community Healthcare System </h3>
+                    <div class="bb-photshoot-grid bb-top-grid" style="grid-template-columns: 1fr 1fr 1fr;">
+                        <img src="./images/BCHS Recognition.jpg" class="bb-img-split" title="Council Director Award" width="400" height="300"> 
+                    </div> 
+        -->
+ 
+
+        <!-- # footer 
+        ================================================== -->
+        <footer class="s-footer" id="footer">
+            <div class="row s-footer__content">
+                <div class="column xl-6 lg-6 md-12 s-footer__block s-footer__about">                    
+                    <h3>Where I’ve Made an Impact</h3>
+                    <div class="bb-img-brand">
+                       <a href="https://www.bchsys.org/" target="_blank" rel="noopener noreferrer" class="image-link">  
+                           <img src="./images/bchs logo.png" /> 
+                       </a>
+                         <a href="https://www.niagaracollege.ca/" target="_blank" rel="noopener noreferrer" class="image-link">
+                            <img src="./images/nc-logo.png" />
+                         </a>
+                        <a href="https://www.niagararegion.ca/" target="_blank" rel="noopener noreferrer" class="image-link">
+                            <img src="./Niagara Region Logo.png" />
+                        </a>
+                        <a href="https://www.grimsby.ca/" target="_blank" rel="noopener noreferrer" class="image-link">
+                            <img src="./images/grimsby-logo.png" /> 
+                        </a>
+                         <a href="https://cprshamilton.ca/" target="_blank" rel="noopener noreferrer" class="image-link">
+                            <img src="./images/CPRS-Logo.webp" />
+                         </a>
+                        <a href="www.yourncsac.ca" target="_blank" rel="noopener noreferrer" class="image-link">
+                            <img src="./165_Niagara College SAC Logo-01.jpg" />
+                        </a>
+                      <a href="https://www.dsvv.ac.in/" target="_blank" rel="noopener noreferrer" class="image-link">   
+                          <img src="./images/dsvv-logo.png" />    
+                      </a> 
+                        <a href="https://www.hindustantimes.com/" target="_blank" rel="noopener noreferrer" class="image-link">  
+                            <img src="./images/hindustan-times-logo.svg.png" />
+                        </a>
+                        <a href="https://www.thehindu.com/" target="_blank" rel="noopener noreferrer" class="image-link">  
+                            <img src="./images/the-hindu-logo.jpg" />
+                        </a>
+                        </a>
+                         
+                            <img src="" style="background-color:transparent;">
+                    
+                        <a href="https://www.cjc.org.uk/" target="_blank" rel="noopener noreferrer" class="image-link">
+                            <img src="./commonwealth.jpg" />
+                        </a>
+                        
+                    </div>         
+                </div>                
+                <div class="column xl-3 lg-6 md-12 s-footer__block s-footer__site-links">
+                    <h3>Site Links</h3>
+                    <ul class="link-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="my-work.html">My Work</a></li>
+                        <!--<li><a href="resume.html">Letters</a></li>-->
+                        <li><a href="mailto:baggabhrigu@gmail.com" target="_blank">Contact</a></li>
+                    </ul>
+                </div>
+            </div>    
+            
+            <div class="row s-footer__bottom">
+                <div class="column xl-6 lg-12">
+                    <ul class="s-footer__social social-list">
+                        <li><a href="https://www.linkedin.com/in/bhrigubagga/" class="icon brands fa-linkedin" target="_blank"><span class="label">Linkdln</span></a></li>
+                        <li><a href="mailto:baggabhrigu@gmail.com" class="icon solid fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+                    </ul> <!-- end s-footer__social -->
+                </div>
+               
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                    </a>
+                </div> <!-- end ss-go-top -->
+            </div>
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "additionalName": "Bhrigu Bagga",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "Canada",
+                "addressRegion": "Niagara Region",
+                "postalCode": "L2R0B7",
+                "streetAddress": "135 Taylor Rd. Niagara-on-the-lake, on LOS 1JO",
+                "email": "baggabhrigu@gmail.com",
+                "telephone": "4317264033"
+            },
+            "jobTitle": "Communications Manager",
+            "image": "https://bhrigu-bagga.github.io/Bhrigu/images/bagga-pic.jpg"
+        }
+    </script>
+            <!-- Password JavaScript Starts -->
+            <script>
+            function checkPassword() {
+                const password = document.getElementById("website-password").value;
+                const correctPassword = "@2026";
+                if (password === correctPassword) {
+                    document.getElementById("password-screen").style.display = "none";
+                } else {
+                    document.getElementById("password-error").textContent =
+                        "Incorrect password. Please try again.";
+                }
+            }
+            </script>
+                <!-- Password JavaScript ends -->
+</body>
+</html>
